@@ -1,0 +1,62 @@
+.personal-container,
+.qual-container {
+  height: 92vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.personal-form,
+.qual-form {
+  width: 45%;
+  background-color: midnightblue;
+  color: black;
+  /* flex-grow: 1; */
+  /* border: 1px solid; */
+  height: fit-content;
+  border-radius: 21px;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  padding: 1rem;
+  /* flex-grow: 1;
+  /* apka jobhi container h uski width ko w manlo agr ap apne children ko flexgrow dete ho to children ek ratio m width consume krege  */
+}
+
+.qual-gen {
+  position: absolute;
+  bottom: 40.9rem;
+  right: 1.5rem;
+}
+
+.qual-save {
+  position: absolute;
+  bottom: 40.9rem;
+  right: 10.5rem;
+}
+
+.form-control {
+  background-color: #ecffe7;
+  color: #000;
+}
+
+#headings {
+  background-color: #ffffff12;
+  padding: 0.7rem;
+  border-radius: 17px;
+  color: rgb(255 255 255 / 81%);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#bck-btn {
+  margin-top: -7rem;
+  margin-left: 34rem;
+  width: 7rem;
+
+}
+
+#next-btn {
+  margin-top: -3rem;
+  margin-left: 33rem;
+  width: 7rem;
+}
+
