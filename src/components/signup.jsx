@@ -14,9 +14,16 @@ let SignUp = (props) => {
     <>
       {user ? <Redirect to="/home" /> : ""}
       <div className="scontainer">
-        <div className="row"  id="sbox">
+        <img
+          className="imglogin"
+          src="https://www.pikpng.com/pngl/b/307-3073981_jobs-png-transparent-background-job-png-clipart.png"
+        />
+
+        <div className="row" id="sbox">
           <div className="col-7 offset-4">
-            <h1 className="mt-4 mb-4" id ="sh1">Sign Up!</h1>
+            <h1 className="mt-4 mb-4" id="sh1">
+              Sign Up!
+            </h1>
             <form className="mt-4">
               <div class="mb-3">
                 <label for="exampleInputEmail1" id="s-email" class="form-label">

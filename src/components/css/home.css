@@ -13,9 +13,10 @@
 }
 
 body{
-    background-image: url("https://flevix.com/wp-content/uploads/2019/12/Blue-Wave-Background-1.svg");
+    /* background-image: url("https://flevix.com/wp-content/uploads/2019/12/Blue-Wave-Background-1.svg");
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
+    background-color: #130f40;
 }
 
 .template-container{

@@ -3,12 +3,12 @@ import "firebase/compat/firestore";
 import "firebase/compat/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBZZUQ0Km_Uw4nvtj6Ss7wzLKYqCC6kq4A",
-  authDomain: "resume-builder-816b0.firebaseapp.com",
-  projectId: "resume-builder-816b0",
-  storageBucket: "resume-builder-816b0.appspot.com",
-  messagingSenderId: "434371101589",
-  appId: "1:434371101589:web:657c7fa3ef0bf8bb78ec9c"
+  apiKey: "AIzaSyDB9fvZhnZSvA41rVAXd--Ab05C5znYteU",
+  authDomain: "resume-maker-4e9ed.firebaseapp.com",
+  projectId: "resume-maker-4e9ed",
+  storageBucket: "resume-maker-4e9ed.appspot.com",
+  messagingSenderId: "50617759578",
+  appId: "1:50617759578:web:7838c644bd5fbbfe096563"
 };
 
 firebase.initializeApp(firebaseConfig);

@@ -52,13 +52,13 @@ let Preview = () => {
           {city}, {state}
         </p>
         
-        <p id="psum-h" className={`template-${templateCode}`}>PROFESSIONAL SUMMARY</p>
+        <p id="psum-h" className={`template-${templateCode}`}><b>PROFESSIONAL SUMMARY</b></p>
 
         <p id="psum" className={`template-${templateCode}`}>
           {psum}
         </p>
 
-        <p id="psum-h" className={`template-${templateCode}`}>EMPLOYMENT HISTORY</p>
+        <p id="psum-h" className={`template-${templateCode}`}><b>EMPLOYMENT HISTORY</b></p>
 
         <p id="oname1" className={`template-${templateCode}`}>
           {pos1}, {oname1}
@@ -84,9 +84,9 @@ let Preview = () => {
           {crole2}
         </p>
 
-        <p id="psum-h" className={`template-${templateCode}`}>EDUCATION </p>
-        <p id="ssc">
-          <b>Secondary Education</b>
+        <p id="psum-h" className={`template-${templateCode}`}><b>EDUCATION</b></p>
+        <p id="ssc" className={`template-${templateCode}`}>
+          Secondary Education
         </p>
         <p id="schoolX" className={`template-${templateCode}`}>
           {schoolX}
@@ -101,8 +101,8 @@ let Preview = () => {
           passed at {passX}
         </p>
 
-        <p id="hsc">
-          <b>Higher Secondary Education</b>
+        <p id="hsc" className={`template-${templateCode}`}>
+          Higher Secondary Education
         </p>
         <p id="schoolXII" className={`template-${templateCode}`}>
           {schoolXII}
@@ -116,7 +116,7 @@ let Preview = () => {
         <p id="passXII" className={`template-${templateCode}`}>
           passed at {passXII}
         </p>
-        <p id="honr" className={`template-${templateCode}`}>HONORS</p>
+        <p id="honr" className={`template-${templateCode}`}><b>HONORS</b></p>
         <p id="college" className={`template-${templateCode}`}>
           {college}
         </p>
