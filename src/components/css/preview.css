@@ -82,10 +82,10 @@ p#psum-h.template-B {
 }
 
 p#psum-h.template-A{
-  border-bottom: 2px dotted blue;
+  border-bottom: 2px solid blue;
 }
 p#psum-h.template-B{
-    border-bottom: 2px dotted red;
+    border-bottom: 2px solid red;
   }
 
 #psum {
@@ -203,15 +203,15 @@ p#psum-h.template-B{
 #honr {
   margin-top: 2.3rem;
   font-weight: 600;
-  border-bottom: 2px dotted red;
+  border-bottom: 2px solid red;
 }
 
 p#honr.template-A{
-    border-bottom: 2px dotted blue;
+    border-bottom: 2px solid blue;
 }
 
 p#honr.template-B{
-    border-bottom: 2px dotted red;
+    border-bottom: 2px solid red;
 }
 
 p#honr.template-C{

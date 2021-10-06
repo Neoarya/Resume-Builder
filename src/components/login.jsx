@@ -14,7 +14,6 @@ let Login = (props) => {
       {user ? <Redirect to="/home" /> : ""}
 
       <div className="container">
-      <img className = "imglogin" src="https://www.pikpng.com/pngl/b/307-3073981_jobs-png-transparent-background-job-png-clipart.png"/>
           <div className="row" id="box">
             <div className="col-7 offset-3">
               
